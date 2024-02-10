@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://github.com/GeckoEidechse/remove-markdown-links/compare/v0.1.0...v1.0.0) (2024-02-10)
+
+
+### Bug Fixes
+
+* Grammar ([6c73fcb](https://github.com/GeckoEidechse/remove-markdown-links/commit/6c73fcb5d612a6fe9edeefe10e0ccd6ce147c357))
+
 ## 0.1.0 (2024-02-10)
 
 

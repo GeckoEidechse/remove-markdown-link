@@ -45,4 +45,15 @@ mod tests {
         let result = remove_markdown_links(&input_string);
         assert_eq!(result, expected_result);
     }
+
+    #[test]
+    fn test_remove_multiple_markdown_links() {
+        let input_string =
+            "Hello, [World](https://example.com/)! How is it [going](https://en.wikipedia.org/)!"
+                .to_string();
+        let expected_result = "Hello, World! How is it going!".to_string();
+
+        let result = remove_markdown_links(&input_string);
+        assert_eq!(result, expected_result);
+    }
 }

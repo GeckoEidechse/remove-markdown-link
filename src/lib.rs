@@ -16,7 +16,7 @@
 /// let result = remove_markdown_links(&markdown);
 /// assert_eq!(result, "This is a link to Example.");
 /// ```
-pub fn remove_markdown_links(input: &String) -> String {
+pub fn remove_markdown_links(input: &str) -> String {
     let re = regex::Regex::new(r"\[([^\[\]]+)\]\(([^)]+)\)").unwrap();
     let replaced = re.replace_all(input, |caps: &regex::Captures| {
         caps.get(1).unwrap().as_str().to_string()

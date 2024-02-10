@@ -1,5 +1,5 @@
 [package]
-name = "remove-markdown-link"
+name = "remove-markdown-links"
 version = "0.1.0"
 authors = ["GeckoEidechse"]
 edition = "2021"

@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "remove-markdown-link"
+name = "remove-markdown-links"
 version = "0.1.0"

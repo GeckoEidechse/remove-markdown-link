@@ -23,3 +23,17 @@ pub fn remove_markdown_links(input: &str) -> String {
     });
     replaced.to_string()
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_no_links() {
+        let input_string = "Hello, World!".to_string();
+        let expected_result = input_string.clone();
+
+        let result = remove_markdown_links(&input_string);
+        assert_eq!(result, expected_result);
+    }
+}

@@ -6,4 +6,4 @@
 [![Build](https://github.com/GeckoEidechse/remove-markdown-links/actions/workflows/build.yml/badge.svg)](https://github.com/GeckoEidechse/remove-markdown-links/actions/workflows/build.yml)
 [![Test](https://github.com/GeckoEidechse/remove-markdown-links/actions/workflows/test.yml/badge.svg)](https://github.com/GeckoEidechse/remove-markdown-links/actions/workflows/test.yml)
 
-Turns `[example](https://example.com)` into `example`, that's it.
+Turns `[example](https://example.com)` into `example`. That's it.

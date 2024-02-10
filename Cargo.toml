@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["GeckoEidechse"]
 edition = "2021"
 
-description = " Turns `[example](https://example.com)` into `example`, that's it "
+description = " Turns `[example](https://example.com)` into `example`. That's it "
 repository = "https://github.com/GeckoEidechse/remove-markdown-links"
 license = "MPL-2.0"
 readme = "README.md"
